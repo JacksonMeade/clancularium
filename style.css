@@ -1,16 +1,16 @@
 @font-face {
     font-family: Olivetti;
-    src: url('../fonts/zai_OlivettiLettera22Typewriter.ttf');
+    src: url('fonts/zai_OlivettiLettera22Typewriter.ttf');
   }
   
   @font-face {
   font-family: Padauk;
-  src: url('../fonts/Padauk-Regular.ttf');
+  src: url('fonts/Padauk-Regular.ttf');
   }
   
   @font-face {
   font-family: Padauk-Bold;
-  src: url('../fonts/Padauk-Bold.ttf');
+  src: url('fonts/Padauk-Bold.ttf');
   }
 
 
