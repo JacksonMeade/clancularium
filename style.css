@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Olivetti;
+    src: url('../fonts/zai_OlivettiLettera22Typewriter.ttf');
+  }
+  
+  @font-face {
+  font-family: Padauk;
+  src: url('../fonts/Padauk-Regular.ttf');
+  }
+  
+  @font-face {
+  font-family: Padauk-Bold;
+  src: url('../fonts/Padauk-Bold.ttf');
+  }
+
+
+body {
+    background: black;
+    font-family: 'Olivetti';
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.t-small {
+    font-size: 0.5em;
+}
+
+.t-regular {
+    font-family: 'Padauk';
+    font-weight: normal;
+}
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+img {
+    width: 3rem;
+    height: 3rem;
+    opacity: 0.8;
+}
+
+.t-red {
+    font-size: 1em;
+    color: rgba(100,0,0,1);
+}
+
+.fullscreen {
+    position: fixed;
+    left: 50%;
+    top:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 15;
+}
+
+.t-medium {
+    font-size: 0.75em;
+}
+
+video {
+    pointer-events: none;
+}
+
+.fade-out-fwd {
+	animation: fade-out-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.fade-in-fwd {
+    animation: fade-in-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes fade-in-fwd {
+    0% {
+      filter: opacity(0%);
+    }
+    100% {
+        filter: opacity(8%);
+    }
+  }
+
+  @keyframes fade-out-fwd {
+    0% {
+      filter: opacity(100%);
+    }
+    100% {
+        filter: opacity(0%);
+    }
+  }
